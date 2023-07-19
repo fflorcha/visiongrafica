@@ -124,7 +124,7 @@ h3 {
     margin: 10px;
 }
 
-#muchotexto {
+.muchotexto {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 12pt;
@@ -139,6 +139,13 @@ h3 {
 
 #linkform a:visited {
     color: #080B33;
+}
+
+#logocliente {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0% 10%;
 }
 
 #fin {
@@ -234,4 +241,38 @@ hr {
     width: 6.25rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 200;
+}
+
+#construccion {
+    display: flex;
+    justify-content: center;
+}
+
+.detalle {
+    display: flex;
+    background-color: #080B33;
+    width: 594px;
+    height: 378px;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.play {
+    font-family: 'Playfair Display', serif;
+    font-size: 38pt;
+    color: white;
+    margin-left: 1.875rem;
+}
+
+.mont {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 13pt;
+    color: white;
+    margin-left: 1.875rem;
+}
+
+.foto {
+    margin: 0% 10%;
 }
