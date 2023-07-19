@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Playfair+Display:wght@800&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #080B33;
+    color: white;
+    padding: 1% 12%;
+}
+
+#busqueda {
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: white; */
+    /* border-radius: .0625rem; 
+    padding: 10px;
+    border-color: white; */
+}
+
+#busqueda input {
+    display: flex;
+    width: 23.625rem;
+    height: 1.5rem;
+    border-radius: 25px white; 
+    background-color: #080B33;
+    border-color: white;
+    /* border: none; */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+#searchb {
+    background-color: #080B33;
+    border-style: none;
+    margin-left: 20px;
+}
+
+.lista {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+
+.menu {
+    display: block;
+    width: 40rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+.menu ul li a {
+    color:#080B33;
+}
+
+.menu ul li a:visited {
+    color: #080B33;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin: 0% 10%;
+}
+
+#titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30pt ;
+    margin: 1%;
+}
+#sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 18pt;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+/*     margin-left: 13.4375rem;
+    margin-bottom: .9375rem;
+    margin-top: 1.25rem; */
+    font-size: 14pt;
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+#tres {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14pt;
+    color: #080B33;
+    margin: 10px;
+}
+
+#muchotexto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 12pt;
+    color: #080B33;
+    margin: 10px;
+}
+
+#linkform {
+    font-weight: 500;
+    color: #080B33;
+}
+
+#linkform a:visited {
+    color: #080B33;
+}
+
+#fin {
+    display: flex;
+    flex-direction: column;
+    background-color: #080B33;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 13pt;
+    color: white;
+    padding: 2% 10% 2% 10%;
+    margin-top: 20px;
+}
+
+#foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#datos {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    font-size: 16pt;
+}
+
+.icondato {
+    display: flex;
+    margin-bottom: 25px;
+    /* margin: 20px; */
+}
+
+.icondato img {
+    margin-right: .9375rem;
+}
+
+#lista-fin {
+    display: flex;
+    flex-direction: column;
+    font-size: 16pt;
+    height: 165px;
+    justify-content: space-between;
+    color: white;
+    /* padding: 10%; */
+}
+
+a:visited {
+    color: white;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+}
+
+#iconredes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#redes {
+    /* padding: 2%; */
+    font-size: 16pt;
+}
+
+hr {
+    margin: 15px;
+}
+
+#news {
+    display: flex;
+    flex-direction: column;
+    font-size: 16pt;
+    width: 23.625rem;
+}
+
+#news input {
+    border-radius: 5px;
+    border-color: #080B33;
+    width: 23.625rem;
+    height: 1.7375rem;
+    margin-top: 10px;
+}
+
+#newsbut {
+    ackground-color: white;
+    color: #080B33;
+    border-radius: .3125rem;
+    margin-top: .9375rem;
+    padding: .625rem;
+    width: 6.25rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200;
+}
